@@ -1,0 +1,16 @@
+﻿
+LINKS:
+https://gcm4public.appspot.com/
+http://hmkcode.com/send-http-post-request-from-java-application-to-google-messaging-service/   desktop
+http://avilyne.com/?p=267 ANDROID & TOMCAT
+http://trinitytuts.com/android-push-notification-using-gcm/  PHP
+http://www.sgoliver.net/blog/notificaciones-push-android-google-cloud-messaging-gcm-implementacion-cliente-nueva-version/# CON LA NUEVA VERSIÓN (básicamente el cliente de google tal cual el ejemplo oficial)
+
+http://stackoverflow.com/questions/22261024/gcm-java-server-example
+	Sender sender = new Sender(apiKey);
+	Message message = new Message.Builder()
+		.addData("message", "this is the message")
+		.addData("other-parameter", "some value")
+		.build();
+	Result result = sender.send(message, registrationId, numOfRetries);
+   
