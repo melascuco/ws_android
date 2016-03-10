@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- @res/layout/main.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <Button android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select a Contact"
+        android:onClick="onClickSelectContact" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="insert..."
+        android:id="@+id/buttonInsert"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onButtonInsertClick" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UPDATE..."
+        android:id="@+id/buttonUpdate"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onButtonUpdateClick" />
+
+    <ImageView android:id="@+id/img_contact"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:adjustViewBounds="true"
+        android:contentDescription="Contacts Image"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt"
+        android:layout_gravity="center_horizontal" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/list"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>
