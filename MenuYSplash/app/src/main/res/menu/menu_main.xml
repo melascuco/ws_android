@@ -1,0 +1,55 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/file"
+        android:title="@string/action_fichero">
+        <!-- "file" submenu -->
+        <menu>
+            <item
+                android:id="@+id/create_new"
+                android:title="@string/action_nuevo"/>
+            <item
+                android:id="@+id/open"
+                android:title="@string/action_buscar"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menu_save"
+        android:icon="@drawable/ic_nuevo"
+        android:title="@string/action_nuevo"/>
+    <!-- menu group -->
+    <group android:id="@+id/group_delete">
+        <item
+            android:id="@+id/menu_archive"
+            android:title="@string/action_nuevo"/>
+        <item
+            android:id="@+id/menu_delete"
+            android:title="@string/action_buscar"/>
+    </group>
+
+
+    <item
+        android:id="@+id/action_buscar"
+        android:icon="@drawable/ic_buscar"
+        android:orderInCategory="100"
+        android:title="@string/action_buscar"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_nuevo"
+        android:icon="@drawable/ic_nuevo"
+        android:orderInCategory="100"
+        android:title="@string/action_nuevo"
+        app:showAsAction="ifRoom|withText"/>
+
+</menu>

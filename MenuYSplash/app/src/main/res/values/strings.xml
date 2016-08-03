@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Menu Y Splash</string>
+    <string name="action_settings">Toquetear...</string>
+    <string name="action_buscar">Buscar...</string>
+    <string name="action_nuevo">Nuevo...</string>
+    <string name="action_fichero">Fichero...</string>
+
+</resources>
