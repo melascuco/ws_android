@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Alarma Random</string>
+    <string-array name="spinner_time_units">
+        <item>minutes</item>
+        <item>seconds</item>
+    </string-array>
+</resources>
